@@ -1,4 +1,4 @@
-int divisiveis(int num) {
+int divisible(int num) {
   if (num > 0) {
     int total = 0;
     for (int i = 0; i < num; i++) {
@@ -13,5 +13,5 @@ int divisiveis(int num) {
 }
 
 void main() {
-  print(divisiveis(11));
+  print(divisible(11));
 }
